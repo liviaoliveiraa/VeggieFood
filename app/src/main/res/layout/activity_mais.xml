@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mais">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10sp"
+        android:rowCount="5"
+        android:columnCount="2"
+        >
+
+        <Button
+            android:id="@+id/curiosidades"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="5sp"
+            android:text="Curiosidades"
+            android:backgroundTint="#C9E59B"/>
+        <Button
+            android:id="@+id/transicao"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="5sp"
+            android:text="Transição"
+            android:backgroundTint="#A3D96A"/>
+        <Button
+            android:id="@+id/alimentacao"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="5sp"
+            android:text="Alimentação"
+            android:backgroundTint="#66BE29"/>
+        <Button
+            android:id="@+id/saude"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="5sp"
+            android:text="Saúde"
+            android:backgroundTint="#88C261"/>
+        <Button
+            android:id="@+id/comunidade"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="5sp"
+            android:text="Comunidade"
+            android:backgroundTint="#56A61B"/>
+        <Button
+            android:id="@+id/btn_voltar_principal"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="5sp"
+            android:text="Voltar"
+            android:backgroundTint="#5B8D21"/>
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

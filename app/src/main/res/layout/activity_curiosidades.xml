@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Curiosidades">
+
+    <Button
+        android:id="@+id/volar_curiosidades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.915" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="317dp">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Curiosidades"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="392dp"
+        android:layout_height="228dp"
+        android:text="Sed tincidunt sagittis magna, vel vehicula lectus porta sed. Vestibulum aliquam semper nibh vulputate molestie. Nulla eget magna porta, finibus justo ac, condimentum turpis. Nullam euismod tempor tempor. Vestibulum non gravida neque, eget posuere orci. Duis vitae arcu erat. Fusce eget eleifend diam. Aenean in lorem quis quam malesuada sollicitudin. Morbi id velit eget metus hendrerit commodo eu in nibh. Vestibulum nec nisi vulputate, molestie purus id, gravida est. Cras laoreet, augue cursus laoreet imperdiet, ligula lectus imperdiet justo, id euismod lacus odio at purus. Aliquam erat volutpat. Fusce finibus neque at neque pharetra condimentum. Donec sit amet egestas dui. Nunc porttitor quis turpis sit amet."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textInputEditText"
+        app:layout_constraintVertical_bias="0.123" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="123dp"
+        android:layout_height="106dp"
+        android:layout_marginEnd="4dp"
+
+        android:layout_marginBottom="80dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toTopOf="@+id/volar_curiosidades"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/curi" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="260dp"
+        android:layout_height="313dp"
+        android:text="Duis sodales ligula urna, in euismod mi eleifend in. Quisque eget interdum ante. Nullam consectetur mauris at lorem sagittis, non congue felis feugiat. In ut leo vitae justo pretium semper non consectetur urna. Vestibulum semper blandit est nec euismod. Nullam sodales mollis tellus quis ornare. Fusce vel iaculis tellus, sed malesuada lectus. Sed id dolor et dui viverra condimentum. Nunc sagittis feugiat risus non mattis. Sed tortor urna, rhoncus sit amet pellentesque non, tincidunt quis metus. Sed at ligula quis enim accumsan euismod. Pellentesque enim libero, dignissim nec lorem sit amet, pellentesque aliquam nisi. Vivamus sit amet libero at quam sollicitudin mollis auctor at erat. Cras vulputate tincidunt quam, nec lobortis mi faucibus vitae. Etiam elementum mi elementum, condimentum dui ac, posuere dui."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView8"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
